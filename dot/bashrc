@@ -1,0 +1,84 @@
+## path
+PATH=$PATH:/Users/paul/env/do
+
+## svn aliases
+export SVN_EDITOR=vim
+export EDITOR=vim
+alias snv='svn'
+alias ss='svn stat'
+alias resolve='svn resolve --accept working'
+alias sup='svn info | grep "Revision"; svn update'
+
+## navigation
+function up { path=""; if [ $1 ]; then for i in $(seq 1 $1); do path=$path"../"; done; else path="../"; fi; cd $path; } # usage: $up 2
+alias back='cd -'  # previously: 'cd $OLDPWD'
+alias where='pwd'
+alias whereami='pwd'
+alias which='type -a'
+function cdl { cd $@   &&   ls -halF; } # change to a directory and print out contents
+
+## bash extensions and misc
+bind "set completion-ignore-case on"
+bind "set show-all-if-ambiguous on"
+export HISTCONTROL=ignoredups
+eval $(thefuck --alias)
+
+## ls extension
+alias l='ls -halF'
+alias lc='ls -halFG'
+
+## git aliases
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias branch='git branch'
+alias co='git checkout'
+alias unpushed='git log @{upstream}..'
+alias unpulled='git fetch; git log ..@{upstream}'
+alias filelog='git log --stat --oneline'
+alias stash='git stash'
+
+## file opening aliases
+alias proj='open *.xc[ow][do][er][pk]*' # .xcodeproj or .xcworkspace
+alias edit='vim'
+alias readme='less *[Rr][Ee][Aa][Dd]*[Mm][Ee]*'
+
+
+## Custom Prompt
+function bash_git_branch
+{
+  # first option branch name, second option is detached head
+  _br=$(git symbolic-ref -q --short HEAD 2> /dev/null || git  rev-parse --short HEAD 2> /dev/null)
+  if [ ! -z $_br ]; then printf "[%s]" $_br; fi
+}
+# [branch]:folder$
+PS1='\[\e[0;32m\]$(bash_git_branch)\[\e[m\]:\[\e[0;36m\]\W\[\e[m\]\$ '
+
+## tab completion for git repos folders under workspace
+function _workspaces()
+{
+    local curw
+    COMPREPLY=()
+    curw=${COMP_WORDS[COMP_CWORD]}
+    COMPREPLY=($(compgen -W '$(ls /Users/paul/workspace)' -- $curw))
+    return 0
+}
+function c()
+{
+    cd /Users/paul/workspace/$1/
+}
+complete -F _workspaces -o dirnames c
+
+
+## tab completion for git branches
+function _branches()
+{
+    local curw
+    local branches
+    COMPREPLY=()
+    curw=${COMP_WORDS[COMP_CWORD]}
+    branches=$(git for-each-ref --format='%(refname:short)' refs/heads/)
+    COMPREPLY=($(compgen -W '$branches' -- $curw))
+    return 0
+}
+complete -F _branches co
