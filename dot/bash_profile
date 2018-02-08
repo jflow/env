@@ -1,2 +1,23 @@
 [[ -r ~/.bashrc ]] && . ~/.bashrc
 
+#export VNC_REPO=~/Projects/VNC
+
+#export ANDROID_HOME=/Users/jonflowers/Library/Android/sdk
+
+#export GRADLE_2_14=/Applications/Development/gradle-2.14
+#export GRADLE_2_2_1=/Applications/Development/gradle-2.2.1
+#export GRADLE_HOME=$GRADLE_2_2_1
+
+#export ANT_1_9_7=/Applications/Development/apache-ant-1.9.7
+#export ANT_HOME=$ANT_1_9_7
+
+# export WORKSPACE=$HOME/Projects
+
+export JRUBY_HOME=/Applications/Development/jruby-9.1.2.0
+
+# export PATH=$GRADLE_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/ndk-bundle:$ANT_HOME/bin:$JRUBY_HOME/bin:$PATH
+# export PATH=$GRADLE_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_HOME/ndk-bundle:$ANT_HOME/bin:$PATH
+
+# export FASTLANE=$HOME/.fastlane/bin
+
+export PATH=$PATH
