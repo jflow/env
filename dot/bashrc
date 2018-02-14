@@ -39,9 +39,9 @@ alias which='type -a'
 
 ## Navigation
 function up { path=""; if [ $1 ]; then for i in $(seq 1 $1); do path=$path"../"; done; else path="../"; fi; cd $path; } # usage: $up 2
-alias projects='cd ~/Projects && ll'
-alias ios='clear && cd ~/Projects/~iOS && ll'
-alias iosg='clear && cd ~/Projects/~iOS/iOSGateway && ll'
+#alias projects='cd ~/Projects && ll'
+#alias ios='clear && cd ~/Projects/~iOS && ll'
+#alias iosg='clear && cd ~/Projects/~iOS/iOSGateway && ll'
 
 
 bind "set completion-ignore-case on"

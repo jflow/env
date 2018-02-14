@@ -1,4 +1,5 @@
 [[ -r ~/.bashrc ]] && . ~/.bashrc
+[[ -r ~/env/dot/aliasFile ]] && . ~/env/dot/aliasFile
 
 #export VNC_REPO=~/Projects/VNC
 

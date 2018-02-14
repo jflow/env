@@ -3,6 +3,7 @@ ref/eggplant_tips.txt
 do/newLinux
 do/cleanLogs
 
+dot/aliasFile
 dot/UserData/IB Support/Simulator Devices
 dot/UserData/*.xcuserstate
 dot/UserData/Debugger/
