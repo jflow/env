@@ -4,6 +4,7 @@ do/newLinux
 do/cleanLogs
 
 dot/aliasFile
+dot/extras
 dot/UserData/IB Support/Simulator Devices
 dot/UserData/*.xcuserstate
 dot/UserData/Debugger/
