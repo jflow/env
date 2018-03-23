@@ -65,6 +65,13 @@ alias unpulled='git fetch; git log ..@{upstream}'
 alias filelog='git log --stat --oneline'
 alias stash='git stash'
 
+## dwrite aliases
+alias dr='default read'
+alias dw='default write'
+alias ddel='default delete'
+alias driosg='default read com.testplant.ios-gateway'
+alias dwiosg='default write com.testplant.ios-gateway'
+
 
 ## tab completion for git repos folders under workspace
 function _projects()
