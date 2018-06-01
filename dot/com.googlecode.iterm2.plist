@@ -63,7 +63,7 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>799 588 937 512 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>35 100 1292 1034 0 0 1920 1177 </string>
+	<string>332 50 1516 1104 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>2232 142 1376 809 1920 0 1920 1057 </string>
 	<key>New Bookmarks</key>
@@ -735,9 +735,16 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-03-23T17:06:48Z</date>
+	<date>2018-04-26T16:23:03Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>ToolbeltTools</key>
+	<array>
+		<string>Jobs</string>
+		<string>Command History</string>
+		<string>Captured Output</string>
+		<string>Notes</string>
+	</array>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>

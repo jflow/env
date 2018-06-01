@@ -13,6 +13,8 @@
 #export ANT_1_9_7=/Applications/Development/apache-ant-1.9.7
 #export ANT_HOME=$ANT_1_9_7
 
+export ANDROID_HOME=/Users/jonflowers/Library/Android/sdk
+
 # export WORKSPACE=$HOME/Projects
 
 export JRUBY_HOME=/Applications/Development/jruby-9.1.2.0

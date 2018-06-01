@@ -73,7 +73,7 @@ alias dw='defaults write'
 alias ddel='defaults delete'
 alias driosg='defaults read com.testplant.ios-gateway'
 alias dwiosg='defaults write com.testplant.ios-gateway'
-
+alias ddeliosg='defaults delete com.testplant.ios-gateway'
 
 ## tab completion for git repos folders under workspace
 function _projects()
