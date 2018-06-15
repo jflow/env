@@ -6,6 +6,12 @@ if [ -f /etc/bashrc ]; then
       . /etc/bashrc   # --> Read /etc/bashrc, if present.
 fi
 
+#-------
+# Paths
+#-------
+
+PATH=$PATH:$HOME/env/do
+
 #-------------------
 # Terminal Prompt
 #-------------------
