@@ -1,0 +1,9 @@
+IB Support/Simulator Devices
+*.xcuserstate
+Debugger/
+SearchScopes.xcsclist
+IDENamedTabStateContexts.plist
+IDEFindNavigatorScopes.plist
+IDEEditorInteractivityHistory
+FontAndColorThemes/
+TestReport.xcstate
