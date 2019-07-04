@@ -60,6 +60,9 @@ alias xcw='open *.xcworkspace'
 alias edit='bbedit'
 alias readme='less *[Rr][Ee][Aa][Dd]*[Mm][Ee]*'
 
+## xcode derived data
+alias derivedHome='defaults write com.apple.dt.Xcode IDECustomDerivedDataLocation /Users/jflow/Projects/zDerivedData'
+alias derivedWork='defaults write com.apple.dt.Xcode IDECustomDerivedDataLocation /Volumes/Data/Eggplant/Projects/xDerivedData'
 
 ## git aliases
 alias gs='git status'

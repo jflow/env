@@ -1,6 +1,6 @@
 [user]
-	name = Paul Landers
-	email = paul.landers@testplant.com
+	name = Jon Flowers
+	email = dev@azarhi.com
 [core]
 	excludesfile = /Users/paul/.gitignore_global
 	whitespace = -blank-at-eol

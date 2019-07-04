@@ -10,5 +10,3 @@
 build/
 *.build/
 xcuserdata/
-
-project.xcworkspace
