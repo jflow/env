@@ -4,9 +4,9 @@ alias cdf='finder'
 function cdl { cd $@   &&   ls -larthG; } # change to a directory and print out contents
 function mkcd { mkdir $@   &&  cd $@; }
 
-alias projects='cd ~/Projects && ll'
-alias ios='clear && cd ~/Projects/~iOS && ll'
-alias iosg='clear && cd ~/Projects/~iOS/iOSGateway && ll'
+alias curprojs='cd ~/Projects && ll'
+alias ios='clear && cd /Volumes/Data/Eggplant/Projects/\~iOS && ll'
+alias iosg='clear && cd /Volumes/Data/Eggplant/Projects/\~iOS/iOSGateway && ll'
 
 ## command shortcuts
 alias which='type -a'
