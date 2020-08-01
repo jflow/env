@@ -1,0 +1,2 @@
+2020-02-16 14:17:58-0700 logd[86492]: assertion failed: 19D76 17C45: logd + 65389 [1B4ADB62-250B-3215-8673-59BDDC31C6D9]: 0x2
+2020-02-18 08:45:16-0700 logd[86492]: No userlevel firehose clients left

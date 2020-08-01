@@ -1,0 +1,58 @@
+{
+  "storage" : "model.espresso.weights",
+  "analyses" : {
+
+  },
+  "properties" : {
+
+  },
+  "format_version" : 200,
+  "layers" : [
+    {
+      "bottom" : "sanitizer_output,bf_output",
+      "alpha" : 1,
+      "operation" : 23,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "max_val",
+      "top" : "max_value",
+      "type" : "elementwise",
+      "name" : "max_val",
+      "beta" : 0
+    },
+    {
+      "bottom" : "",
+      "k" : 1,
+      "n" : 1,
+      "weights" : {
+
+      },
+      "h" : 1,
+      "debug_info" : "equal",
+      "constant_blob" : 1,
+      "top" : "equal_load_constant_2",
+      "w" : 1,
+      "type" : "load_constant",
+      "name" : "equal_load_constant_2"
+    },
+    {
+      "bottom" : "max_value,equal_load_constant_2",
+      "alpha" : 1,
+      "operation" : 103,
+      "beta" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "equal",
+      "top" : "computed_filterScore",
+      "type" : "elementwise",
+      "name" : "equal",
+      "attributes" : {
+        "is_output" : 1
+      }
+    }
+  ]
+}
