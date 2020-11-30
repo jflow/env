@@ -11,10 +11,10 @@ alias faz='clear && cd /Volumes/Data/Projects/Azarhi'
 alias ios='clear && cd /Volumes/Data/Projects/\~iOS && ll'
 alias iosg='clear && cd /Volumes/Data/Projects/\~iOS/iOSGateway && ll'
 alias egg='clear && cd /Volumes/Data/Projects/ && ll'
-alias data='clear && cd /Volumes/Data'
+alias data='cd /Volumes/Data && clear'
 
-
-alias azdata='clear && cd /Volumes/AzData'
+# alias az2='cd /Volumes/Az2 && clear'
+alias azdata='cd /Volumes/AzData && clear'
 alias azpro='cd /Volumes/Azdata/Projects && clear'
 
 ## command shortcuts
@@ -47,3 +47,10 @@ alias cartbuildmac='carthage build --platform macOS'
 
 ## EGGPLANT
 export PIP_EXTRA_INDEX_URL=https://jon.flowers%40eggplant.io:RirU*iwPfjDVH7ZoETZ!2DvBzqCL!M69@pypi.dai.webperfdev.com/simple/
+
+
+## Functions 
+az2 () {
+	cd /Volumes/Az2/$1
+	clear
+}
