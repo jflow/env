@@ -106,9 +106,9 @@ source $ZSH/oh-my-zsh.sh
 
 export MYZSH="$ZSH/.."
 source $MYZSH/environment.zsh
-source $ZSH/../aliases.zsh
+source $ZSH/../alias.zsh
 source $ZSH/../path.zsh
 source $ZSH/../functions.zsh
 source $ZSH/../config.zsh
 source $ZSH/../completion.zsh
-source $ZSH/../z/z.sh
+# source $ZSH/../z/z.sh
