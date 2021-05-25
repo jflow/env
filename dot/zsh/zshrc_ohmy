@@ -104,9 +104,11 @@ source $ZSH/oh-my-zsh.sh
 # My Additions
 ## load configs
 
+export MYZSH="$ZSH/.."
+source $MYZSH/environment.zsh
 source $ZSH/../aliases.zsh
 source $ZSH/../path.zsh
-# source $ZSH/../functions.zsh ## needs fixing
+source $ZSH/../functions.zsh
 source $ZSH/../config.zsh
 source $ZSH/../completion.zsh
 source $ZSH/../z/z.sh
