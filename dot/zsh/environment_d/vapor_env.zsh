@@ -1,0 +1,4 @@
+export DATABASE_HOST=postgres.azarhi.net
+export DATABASE_USERNAME=wd_user
+export DATABASE_PASSWORD=user_wd
+export DATABASE_NAME=wardragons

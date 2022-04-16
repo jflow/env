@@ -19,3 +19,7 @@
 	sync = "!git pull --rebase && git push"
   pullr = pull --rebase
   unstage = reset HEAD --
+[init]
+	defaultBranch = develop
+[pull]
+	rebase = false
