@@ -23,3 +23,5 @@ do
 done
 
 unset config_files
+
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
