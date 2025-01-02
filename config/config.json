@@ -1,0 +1,6 @@
+{
+    "links": [
+        { "rootPath": "~", "atPath": ".bash_test", "destPath": "dot/bash/bash_profile" },
+        { "rootPath": "~", "atPath": ".bashrc_test", "destPath": "dot/bash/bashrc" }
+    ]
+}

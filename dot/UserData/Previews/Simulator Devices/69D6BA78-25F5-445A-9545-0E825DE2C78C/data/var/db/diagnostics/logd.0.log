@@ -1,4 +1,0 @@
-2020-03-28 17:37:39-0600 logd[18934]: assertion failed: 19E266 17E255: logd + 65253 [DE74D4DF-B472-3728-9F06-29087A3E089D]: 0x2
-2020-03-28 17:53:58-0600 logd[18934]: No userlevel firehose clients left
-2020-03-28 18:56:42-0600 logd[22103]: assertion failed: 19E266 17E255: logd + 65253 [DE74D4DF-B472-3728-9F06-29087A3E089D]: 0x2
-2020-03-29 15:35:43-0600 logd[22103]: No userlevel firehose clients left
