@@ -1,4 +1,4 @@
-for f in $LZSH/dot/zsh/functions_d/*.zsh
+for f in $WRKSP/dot/zsh/functions_d/*.zsh
 do
 	source $f
 done

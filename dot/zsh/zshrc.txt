@@ -1,8 +1,8 @@
-export LZSH=$HOME/env
+export WRKSP=$HOME/env
 
 # load configs
 # typeset -U config_files
-# config_files=($LZSH/**/*.zsh)
+# config_files=($WRKSP/**/*.zsh)
 # echo $config_files
 
 # load all config files

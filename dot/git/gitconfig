@@ -1,4 +1,6 @@
 [user]
+	name = Jon
+	email = dev@azarhi.com
   # These values are set in ~/.gitconfig_local
 [include]
   path = ~/.gitconfig_local
